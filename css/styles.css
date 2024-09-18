@@ -1,3 +1,4 @@
+
 /* #region FONTS */
 
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
@@ -10,6 +11,7 @@
 
 
 
+/* #region * */
 
 * {
   box-sizing: border-box;
@@ -38,10 +40,9 @@ p, h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
+/* #endregion * */
 
 
-
-/* _____________________H E A D E R______________________ */
 
 /* #region HEADER */
 
@@ -193,9 +194,6 @@ header .btn:hover {
 
 
 
-
-/* _______________________H E R O________________________ */
-
 /* #region HERO */
 
 .hero-section {
@@ -277,9 +275,6 @@ h1 span {
 /* #endregion HERO */
 
 
-
-
-/* ________________________about_________________________ */
 
 /* #region about */
 
@@ -411,9 +406,6 @@ h1 span {
 /* #endregion about */
 
 
-
-
-/* ______________________services_______________________ */
 
 /* #region services */
 
@@ -547,9 +539,6 @@ h1 span {
 
 
 
-
-/* _______________________prand________________________ */
-
 /* #region prand */
 
 .section-prand {
@@ -621,9 +610,6 @@ h1 span {
 /* #endregion prand */
 
 
-
-
-/* _______________________process________________________ */
 
 /* #region process */
 
@@ -765,9 +751,6 @@ h1 span {
 
 
 
-
-/* ________________________blog_________________________ */
-
 /* #region blog */
 
 .section-blog {
@@ -882,9 +865,6 @@ h1 span {
 /* #endregion blog */
 
 
-
-
-/* _______________________F O O T E R____________________ */
 
 /* #region FOOTER */
 
@@ -1036,7 +1016,6 @@ footer {
 }
 
 /* #endregion FOOTER */
-
 
 
 
