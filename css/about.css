@@ -394,3 +394,125 @@
 }
 
 /* #endregion cverview */
+
+
+/* #region cverview */
+
+.section-contact {
+  margin-bottom: 120px;
+}
+
+.section-contact .row {
+  align-items: center;
+  justify-content: center;
+}
+
+.section-contact .img-contact {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-contact .img-contact img {
+  width: 100%;
+}
+
+.section-contact .item {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 0 40px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 43px;
+  gap: 30px;
+}
+
+.section-contact .item .headeng {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-contact .item .headeng img {
+  margin-bottom: 17px;
+  width: 80px;
+  height: 80px;
+}
+
+.section-contact .item .img img {
+  width: 100%;
+}
+
+.section-contact .item .headeng h3 {
+  color: #034833;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.section-contact .item .headeng p {
+  margin-top: 13px;
+  color: #727272;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 23px;
+}
+
+.section-contact .item .headeng .link-green-home a {
+  width: 158px;
+}
+
+.section-contact .ul-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 60px;
+  gap: 30px;
+  border-radius: 20px;
+  background: var(--Home-P, #83CD20);
+}
+
+.section-contact .ul-flex h3 {
+  color: #FFF;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.section-contact .ul-flex h6 {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+@media (max-width: 991px) {
+
+  .section-contact .item {
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .section-contact .item .headeng {
+    align-items: center;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 450px) {
+
+  .section-contact .ul-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+/* #endregion cverview */
