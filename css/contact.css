@@ -63,3 +63,215 @@
 }
 
 /* #endregion hero */
+
+
+
+
+/* #region form */
+
+.form {
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+
+.form .row {
+  align-items: center;
+  justify-content: center;
+  row-gap: 50px;
+}
+
+.form .imgs {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 630px;
+}
+
+.form .imgs img {
+  width: 100%;
+}
+
+.form .item-form {
+  max-width: 630px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form .item-form .text {
+  margin-bottom: 40px;
+}
+
+.form .item-form .text h5 {
+  color: #034833;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.form .item-form .text h2 {
+  color: #034833;
+  font-family: "Plus Jakarta Sans";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.form .item-form form {
+  padding: 40px;
+  min-height: 555px;
+  display: flex;
+  padding: 40px;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+  background: #F1F5EB;
+}
+
+.form .item-form form .email-phone {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(auto, 260px));
+  gap: 30px;
+  align-items: center;
+  width: 100%;
+}
+
+.form .item-form form .email-phone .email {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+}
+
+.form .item-form form .email-phone .phone {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+}
+
+.form .item-form form label {
+  color: #034833;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.form .item-form form input {
+  color: #034833;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  height: 60px;
+  padding: 25px;
+  border-radius: 30px;
+  border: 1px solid #E3DBD8;
+  width: 100%;
+}
+
+.form .item-form form .email-phone svg {
+  position: absolute;
+  right: 20px;
+  top: 57px;
+}
+
+.form .item-form form .address,
+.form .item-form form .message {
+  width: 100%;
+  position: relative;
+}
+
+.form .item-form form .address svg,
+.form .item-form form .message svg {
+  position: absolute;
+  right: 20px;
+  top: 55px;
+}
+
+.form .item-form form .message textarea {
+  width: 100%;
+  height: 130px;
+  padding: 15px 25px;
+  border-radius: 30px;
+  border: 1px solid #E3DBD8;
+}
+
+.form .item-form form button {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  padding: 20px 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border: 2px solid #83CD20;
+  background: #83CD20;
+  color: #FFF;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  transition: all 0.3s;
+}
+
+.form .item-form form button:hover {
+  background: transparent;
+  color: #83CD20;
+}
+
+
+@media (max-width: 767px) {
+
+  .form .item-form form .email-phone {
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+  }
+
+}
+
+@media (max-width: 475px) {
+
+  .form .item-form .text h5 {
+    justify-content: center;
+  }
+
+  .form .item-form .text h2 {
+    text-align: center;
+    font-size: 40px;
+  }
+
+}
+
+/* #endregion form */
+
+
+
+
+/* #region hero */
+
+
+
+@media (max-width: 435px) {
+
+
+
+}
+
+@media (max-width: 345px) {
+
+
+
+}
+
+/* #endregion hero */
