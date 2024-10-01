@@ -77,11 +77,11 @@
 
 #accordionFlushExample {
   display: flex;
-  flex-direction: column;
   gap: 30px;
 }
 
 .accordion-flush > .accordion-item {
+  padding: 0;
   display: flex;
   max-width: 630px;
   flex-direction: column;
@@ -91,6 +91,7 @@
   border-radius: 20px;
   background: #FFF;
   box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.05);
+  width: 48%;
 }
 
 .accordion-header {
